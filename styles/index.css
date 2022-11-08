@@ -1,0 +1,38 @@
+#presentation {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  align-items: center;
+  justify-content: center;
+}
+
+#presentation>img {
+  width: 10rem;
+  height: 10rem;
+}
+
+#presentation h1 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+#presentation p {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.social-links {
+  margin: 1.2rem auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.social-links img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  box-shadow: 0 0 1rem #f8fafc4d;
+}
