@@ -38,3 +38,4 @@ Para permitir a visualização dos itens de forma simplificada, recomenda-se que
 ## Material de consulta
 
 - [Mozilla Web Docs](https://developer.mozilla.org/en-US/docs/Web)
+- [Design](https://www.figma.com/community/file/1163921678095762153)
