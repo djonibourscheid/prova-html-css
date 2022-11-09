@@ -31,3 +31,79 @@
   width: 3rem;
   height: 3rem;
 }
+
+
+/* PROJETOS RECENTES */
+#recent-projects .projects {
+  margin-top: 2.5rem;
+  gap: 2.5rem;
+}
+
+.project {
+  background-color: var(--bg-projects);
+  align-items: center;
+  gap: 1.8rem;
+  padding: 1.25rem;
+  border-radius: 2rem;
+}
+
+.project img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.project .title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title h2 {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.title span {
+  border-radius: 1rem;
+}
+
+.title p {
+  padding: 0.8rem;
+  font-weight: 700;
+}
+
+.title p,
+.description p {
+  font-size: 1.2rem;
+  line-height: 12px;
+}
+
+.description p:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+
+/* HIGHLIGHTS */
+.green-highlight {
+  background-image: linear-gradient(180deg, #10B981 0%, #BEF264 100%);
+}
+
+.green-highlight-bg {
+  background-image: linear-gradient(180deg, rgba(16, 185, 129, 0.2) 0%, rgba(190, 242, 100, 0.2) 100%);
+}
+
+.red-highlight {
+  background-image: linear-gradient(180deg, #DC2626 0%, #F97316 100%);
+}
+
+.red-highlight-bg {
+  background-image: linear-gradient(180deg, rgba(220, 38, 38, 0.2) 0%, rgba(249, 115, 22, 0.2) 100%);
+}
+
+.purple-highlight {
+  background-image: linear-gradient(180deg, #7C3AED 0%, #60A5FA 100%);
+}
+
+.purple-highlight-bg {
+  background-image: linear-gradient(180deg, rgba(124, 58, 237, 0.2) 0%, rgba(96, 165, 250, 0.2) 100%);
+}
