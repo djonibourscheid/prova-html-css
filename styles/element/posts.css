@@ -18,6 +18,11 @@
 
 
 /* Na blog.html */
+.posts-container_header {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
 .posts-container_header h1 {
   color: #fff;
   text-align: center;
@@ -27,6 +32,10 @@
 .posts-container_header p {
   font-size: 1.4rem;
   text-align: center;
+}
+
+#posts-container .posts {
+  margin: 4.2rem 0 2rem;
 }
 
 

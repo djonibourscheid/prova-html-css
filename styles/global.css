@@ -31,7 +31,7 @@
 }
 
 
-/* General */
+/* Geral */
 a {
     text-decoration: none;
 }
@@ -171,6 +171,7 @@ input:-ms-input-placeholder {
 input:-ms-input-placeholder {
     color: var(--slate-300);
 }
+
 
 /* FOOTER */
 footer {
