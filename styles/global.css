@@ -4,11 +4,12 @@
     font-size: 62.5%;
 
     --bg-color: #0f172a;
-    --bg-card: #1e293b66;
+    --bg-projects: #1e293b66;
     --blue-highlight: linear-gradient(270deg, #22D3EE 50%, #0EA5E9 100%);
     --bg-button: linear-gradient(270deg, #22D3EE 50%, #0EA5E9 100%);
     --slate-50: #F8FAFC;
     --slate-300: #cbd5e1;
+    --slate-800: #1E293B;
     --gray-400: #9CA3AF;
 }
 
@@ -28,11 +29,19 @@ ul {
     list-style: none;
 }
 
-.blue-highlight {
-    background-image: var(--blue-highlight);
+.highlight {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.blue-highlight {
+    background-image: var(--blue-highlight);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
 }
 
 body {
@@ -76,8 +85,11 @@ header nav a {
 
 
 main {
-    padding: 2.4rem 1.2rem;
-    display: flex;
-    flex-direction: column;
+    padding: 2.4rem;
     gap: 4rem;
+}
+
+section h1 {
+    color: var(--slate-50);
+    font-size: 2rem;
 }
