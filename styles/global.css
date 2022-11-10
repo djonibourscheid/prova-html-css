@@ -11,6 +11,7 @@
     --slate-300: #cbd5e1;
     --slate-800: #1E293B;
     --gray-400: #9CA3AF;
+    --cyan-400: #22D3EE;
 }
 
 
@@ -49,6 +50,10 @@ ul {
 
 .blue-highlight {
     background-image: var(--blue-highlight);
+}
+
+.cyan-highlight {
+    color: var(--cyan-400);
 }
 
 .column {
@@ -114,6 +119,14 @@ section h1 {
 
 
 /* NEWSLETTER */
+#newsletter {
+    margin-top: 2rem;
+}
+
+#newsletter h1 {
+    font-weight: 500;
+}
+
 #newsletter p {
     font-size: 1.2rem;
     line-height: 1.4rem;

@@ -1,0 +1,41 @@
+/* Introdução */
+#newsletter {
+  margin-top: 0;
+}
+
+#newsletter h1 {
+  text-align: center;
+}
+
+#newsletter p {
+  font-size: 1.6rem;
+  line-height: initial;
+}
+
+/* Lista de conteúdos */
+#newsletter ul {
+  list-style: disc;
+  gap: 0.5rem;
+  margin: 3rem 0;
+}
+
+#newsletter ul p {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+#newsletter li {
+  margin-left: 1.75rem;
+  font-size: 1.4rem;
+}
+
+
+/* footer */
+/* min-height: 648px */
+@media (min-height: 40.5rem) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
