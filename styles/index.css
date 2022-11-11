@@ -28,6 +28,10 @@
   height: 3rem;
 }
 
+#presentation .social-links a:hover {
+  filter: brightness(1.2) blur(0.1px);
+}
+
 
 /* PROJETOS RECENTES */
 .projects {

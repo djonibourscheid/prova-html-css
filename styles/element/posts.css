@@ -11,6 +11,11 @@
   color: var(--slate-50);
 }
 
+.latest-posts_header a:hover {
+  filter: brightness(0.8);
+  text-decoration: underline;
+}
+
 .latest-posts_header img {
   width: 2rem;
   height: 2rem;
@@ -91,6 +96,11 @@
   display: flex;
   align-items: center;
   gap: 0.25rem;
+}
+
+.post-content a:hover {
+  filter: brightness(1.2);
+  text-decoration: underline;
 }
 
 .post-content a img {
