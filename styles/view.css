@@ -1,0 +1,72 @@
+/* Geral */
+/* para todas imagens que tiverem no post */
+#post img {
+  width: 85%;
+  height: 18rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+#post ul,
+#see-also ul {
+  gap: 0.5rem;
+  list-style: disc;
+  padding-left: 1.75rem;
+}
+
+
+/* Cabeçalho do post */
+.post-header {
+  text-align: center;
+  align-items: center;
+  gap: 1.8rem;
+  margin-bottom: 2.5rem;
+}
+
+.post-title {
+  color: var(--slate-50);
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+.post-infos {
+  color: var(--gray-400);
+  font-size: 1.4rem;
+}
+
+
+/* Conteúdo do post */
+.post-content {
+  gap: 1rem;
+  word-spacing: 0.2rem;
+  color: var(--slate-50);
+}
+
+.post-content h2 {
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.post-content p,
+.post-content li {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+}
+
+
+/* VEJA TAMBÉM */
+#see-also h3 {
+  color: var(--slate-50);
+}
+
+#see-also a {
+  color: var(--cyan-400);
+  cursor: pointer;
+  text-decoration: underline;
+  transition: text-shadow 0.25s ease-in-out;
+}
+
+#see-also a:hover {
+  text-decoration: none;
+  text-shadow: 0 0 0.25rem rgb(255 255 255 / 0.5);
+}
