@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* Na index.html */
 .latest-posts_header {
   display: flex;
@@ -58,7 +60,7 @@
   align-self: center;
 }
 
-.post>img {
+.post picture img {
   border-radius: 2rem 2rem 0 0;
   width: 100%;
   height: 18rem;

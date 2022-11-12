@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* 480px */
+@media (min-width: 30rem) {
+
+  .latest-posts_header a,
+  .posts-container_header p,
+  .post-content p,
+  .post-content a {
+    font-size: 1.6rem;
+  }
+
+  .post-content h2 {
+    font-size: 2rem;
+  }
+}
