@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="styles/index.css">
 
     <link rel="stylesheet" href="styles/element/posts.css">
+
+    <link rel="stylesheet" href="styles/responsive/global.css" media="(min-width: 30rem)">
+    <link rel="stylesheet" href="styles/responsive/index.css" media="(min-width: 30rem)">
+    <link rel="stylesheet" href="styles/responsive/posts.css" media="(min-width: 30rem)">
 </head>
 
 <body>
@@ -44,7 +48,8 @@
             <p>
                 Lorem ipsum dolor <span class="cyan-highlight">sit amet</span>, consectetur adipiscing elit.<br>
                 Phasellus malesuada nisi tellus, non imperdiet nisi tempor at.<br>
-                Lorem ipsum dolor sit amet, consectetur <span class="cyan-highlight">adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et
+                Lorem ipsum dolor sit amet, consectetur <span class="cyan-highlight">adipiscing elit</span>, sed do
+                eiusmod tempor incididunt ut labore et
                 <span class="cyan-highlight">dolore</span>.
             </p>
 
@@ -114,8 +119,14 @@
 
             <div class="posts column">
                 <div class="post">
-                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=370&q=80"
-                        alt="Lorem ipsum">
+                    <picture>
+                        <source media="(min-width: 30rem) and (max-width: 48rem)"
+                            srcset="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=610&q=80"
+                            type="image/png">
+
+                        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=370&q=80"
+                            alt="Lorem ipsum" loading="lazy">
+                    </picture>
 
                     <div class="post-content column">
                         <h2>Lorem ipsum dolor sit amet consectetur.</h2>
@@ -129,8 +140,14 @@
                 </div>
 
                 <div class="post">
-                    <img src="https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=370&q=80"
-                        alt="Lorem ipsum">
+                    <picture>
+                        <source media="(min-width: 30rem) and (max-width: 48rem)"
+                            srcset="https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=610&q=80"
+                            type="image/png">
+
+                        <img src="https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=370&q=80"
+                            alt="Lorem ipsum" loading="lazy">
+                    </picture>
 
                     <div class="post-content column">
                         <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, incidunt!</h2>
@@ -144,8 +161,14 @@
                 </div>
 
                 <div class="post">
-                    <img src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=370&q=80"
-                        alt="Lorem ipsum">
+                    <picture>
+                        <source media="(min-width: 30rem) and (max-width: 48rem)"
+                            srcset="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=610&q=80"
+                            type="image/png">
+
+                        <img src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=370&q=80"
+                            alt="Lorem ipsum" loading="lazy">
+                    </picture>
 
                     <div class="post-content column">
                         <h2>Lorem ipsum dolor sit.</h2>

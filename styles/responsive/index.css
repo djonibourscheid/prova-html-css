@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* 480px */
+@media (min-width: 30rem) {
+
+  /* APRESENTAÇÃO */
+  #presentation>img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  #presentation p {
+    font-size: 1.6rem;
+  }
+
+  #presentation .social-links * {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+
+  /* PROJETOS RECENTES */
+  .project img {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+
+  .title h2 {
+    font-size: 2rem;
+  }
+
+  .title p,
+  .description p {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+}
