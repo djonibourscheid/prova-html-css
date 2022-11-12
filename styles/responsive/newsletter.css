@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* 480px */
+@media (min-width:30rem) {
+  #newsletter li {
+    font-size: 1.6rem;
+  }
+}

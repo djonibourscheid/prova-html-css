@@ -30,12 +30,13 @@
 }
 
 
-/* footer */
-/* min-height: 648px */
-@media (min-height: 40.5rem) {
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
+/* Deixar o footer no final da pagina */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
 }
