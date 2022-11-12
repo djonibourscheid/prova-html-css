@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* 480px */
+@media (min-width: 30rem) {
+  .post-header img {
+    height: 27rem;
+    margin: 0 auto;
+  }
+}
