@@ -6,3 +6,24 @@
     font-size: 1.6rem;
   }
 }
+
+
+/* 768px */
+@media (min-width: 48rem) {
+  #newsletter {
+    display: flex;
+    flex-direction: column;
+    max-width: 85rem;
+    margin: auto;
+
+  }
+
+  #newsletter ul {
+    margin: 0;
+    align-self: flex-start;
+  }
+
+  #newsletter form {
+    max-width: 65rem;
+  }
+}

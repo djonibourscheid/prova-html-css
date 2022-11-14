@@ -82,6 +82,9 @@
     justify-self: flex-end;
   }
 
+  #newsletter input {
+    padding: 1rem;
+  }
 
   footer {
     flex-direction: row !important;
