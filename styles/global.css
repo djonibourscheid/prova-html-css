@@ -80,6 +80,8 @@ body {
     background-color: var(--bg-color);
     color: var(--slate-300);
     font: 400 1.6rem 'Roboto', sans-serif;
+    max-width: 124rem;
+    margin: 0 auto;
 }
 
 

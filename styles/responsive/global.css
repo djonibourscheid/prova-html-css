@@ -52,6 +52,7 @@
   }
 
   main {
+    width: 100%;
     margin-top: 5rem;
     gap: 8rem;
   }
@@ -84,6 +85,6 @@
 
   footer {
     flex-direction: row !important;
-  justify-content: space-around;
+    justify-content: space-around;
   }
 }
