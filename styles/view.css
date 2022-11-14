@@ -74,6 +74,7 @@
 /* VEJA TAMBÉM */
 #see-also h3 {
   color: var(--slate-50);
+  font-size: 1.8rem;
 }
 
 #see-also a {
