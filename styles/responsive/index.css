@@ -35,3 +35,56 @@
     line-height: 1.6rem;
   }
 }
+
+
+/* 768px */
+@media (min-width: 48rem) {
+
+  /* APRESENTAÇÃO */
+  #presentation {
+    display: grid;
+    grid-template-columns: 1fr 25rem;
+    gap: 3rem;
+  }
+
+  #presentation>img {
+    width: 25rem;
+    height: 25rem;
+    grid-column: 2/3;
+    grid-row: 1/4;
+  }
+
+  #presentation h1 {
+    font-size: 3.4rem;
+  }
+
+  #presentation p {
+    font-size: 2rem;
+    line-height: 140%;
+    max-width: 90%;
+  }
+
+  #presentation .social-links {
+    margin: 0;
+  }
+
+  #presentation .social-links * {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+
+  /* PROJETOS RECENTES */
+  .project {
+    padding: 2.5rem;
+    display: grid;
+    grid-template-columns: 12rem 1fr;
+    gap: 1.75rem 4rem;
+  }
+
+  .project img {
+    width: 12rem;
+    height: 12rem;
+    grid-row: 1/3;
+  }
+}

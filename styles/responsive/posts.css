@@ -14,3 +14,43 @@
     font-size: 2rem;
   }
 }
+
+
+/* 768px */
+@media (min-width: 48rem) {
+
+  /* Na index.html */
+  .latest-posts_header a {
+    gap: 1.2rem;
+    font-size: 2rem;
+  }
+
+  .latest-posts_header img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  /* Geral */
+  .posts {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .post {
+    max-width: 37rem;
+    align-self: unset;
+  }
+
+  .post picture img {
+    height: 25rem;
+  }
+
+  .post-content {
+    /* 25rem da img e 0.5rem do espaço da picture */
+    height: calc(100% - 25.5rem);
+    justify-content: space-between;
+  }
+}
